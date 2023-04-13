@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+.columns-desktop {
+
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    background-color: green;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+}
+
+.name {
+    font-weight: bold;
+    text-align: center;
+}
+
+.my-info {
+    width: 100%;
+}
+
+.columns {
+    display: flex;
+}
+
+.my-info .columns .email {
+    text-align: right;
+}
+
+.my-info .columns div {
+    width: 50%;
+}
+.bio {
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
