@@ -1,40 +1,95 @@
 * {
     padding: 0;
 }
-.container {
-    width: 100%;
+.containerflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/*     width: 100%;
     height: 100%;
     border: 1px solid #000;
     display: flex;
     box-shadow: yellow;
     padding: 4px;
     border-radius: 4px;
-    text-align: center;
+    text-align: center; */
+
+}
+.boxoneflex {
+
+    border: 1px solid green;
+    background-color: cadetblue;
+    flex-basis: 25%;
+
+}
+
+.boxtwoflex {
+
+    border: 1px solid red;
+    background-color: burlywood;
+    flex-basis: 25%;
+
+}
+
+.boxthreeflex {
+
+    border: 1px solid purple;
+    background-color: lightpink;
+    flex-basis: 25%;
+    
+}
+
+.boxfourflex {
+
+    border: 1px solid orange;
+    background-color: lightblue;
+    flex-basis: 25%;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+/*     width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    display: flex;
+    box-shadow: yellow;
+    padding: 4px;
+    border-radius: 4px;
+    text-align: center; */
 
 }
 .boxone {
+    grid-column: 1/4;
+    grid-row: 1;
     border: 1px solid green;
     background-color: cadetblue;
-    width: 25%;
+    /* width: 25%; */
 
 }
 
 .boxtwo {
+    grid-column: 2/4;
+    grid-row: 1;
     border: 1px solid red;
     background-color: burlywood;
-    width: 25%;
+    /* width: 25%; */
 
 }
 
 .boxthree {
+    grid-column: 1/4;
+    grid-row: 2;
     border: 1px solid purple;
     background-color: lightpink;
-    width: 25%;
+    /* width: 25%; */
     
 }
 
 .boxfour {
+    grid-column: 2/4;
+    grid-row: 2;
     border: 1px solid orange;
     background-color: lightblue;
-    width: 25%;
+    /* width: 25%; */
 }
