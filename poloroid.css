@@ -15,14 +15,58 @@ figure {
     margin: 10px 0;
     background-color: white;
     border: 1px solid;
+    border-radius: 3px;
 }
 figcaption {
     text-align: center;
     padding: 10px;
 }
 
-.filler {
+.fillera {
+    background-color: aquamarine;
+    width: 100%;
+    height: 170px;
+}
+
+.fillerb {
+    background-color: burlywood;
+    width: 100%;
+    height: 170px;
+}
+
+.fillerc {
+    background-color: chocolate;
+    width: 100%;
+    height: 170px;
+}
+
+.fillerd {
+    background-color: darkblue;
+    width: 100%;
+    height: 170px;
+}
+
+.fillere {
+    background-color: goldenrod;
+    width: 100%;
+    height: 170px;
+}
+
+.fillerf {
+    background-color: firebrick;
+    width: 100%;
+    height: 170px;
+}
+
+.fillerg {
     background-color: green;
     width: 100%;
-    height: 100%;
+    height: 170px;
 }
+
+.fillerh {
+    background-color: hotpink;
+    width: 100%;
+    height: 170px;
+}
+
