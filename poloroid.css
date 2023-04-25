@@ -1,0 +1,28 @@
+body {
+    background-color: #f4f7c5;
+}
+
+.gallery {
+    display: flex;
+    margin: auto;
+    width: 800px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+figure {
+    width: 170px;
+    margin: 10px 0;
+    background-color: white;
+    border: 1px solid;
+}
+figcaption {
+    text-align: center;
+    padding: 10px;
+}
+
+.filler {
+    background-color: green;
+    width: 100%;
+    height: 100%;
+}
