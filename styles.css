@@ -7,7 +7,7 @@
     width: 25%;
     padding: 10px;
     margin: 10px;
-    background-color: green;
+    background-color: wheat;
     border: solid 1px #ccc;
     border-radius: 4px;
 }
@@ -34,7 +34,7 @@
     width: 50%;
 }
 .bio {
-    background-color: #ccc;
+    background-color: antiquewhite;
     padding: 10px;
     border-radius: 4px;
 }
